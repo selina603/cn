@@ -38,7 +38,7 @@
 
 
 1.开启“边缘存储”服务
-<div id="user-content-6”></div>
+<div id="user-content-6"></div>
 
 1）登入控制台->对象存储->空间管理->进入某个Bucket->空间设置->边缘存储
 
@@ -53,7 +53,7 @@
 备注：确认“边缘存储”服务是已经开启的状态，才能在进行以下操作。
 
 2.OSS同步至边缘存储
-<div id="user-content-7”></div>
+<div id="user-content-7"></div>
 
 1）登入控制台->对象存储->空间管理->进入某个Bucket->Object管理
 
@@ -70,7 +70,7 @@
 4）单击“确定”按钮，页面右上出现任务数量及查看详情。
 
 3.边缘存储同步至OSS。
-<div id="user-content-8”></div>
+<div id="user-content-8"></div>
 
 1）登入控制台->对象存储->边缘存储->文件管理
 
@@ -90,7 +90,7 @@
 
 
 ## API统一信息
-<div id="user-content-9”></div>
+<div id="user-content-9"></div>
 
 - 服务域名：apigw-internal.cn-north-1.jcloudcs.com
 - 认证: [JD API 网关](https://www.jdcloud.com/cn/products/api-gateway) 统一认证
@@ -98,7 +98,7 @@
 ## API 详情
 
 ### 1.同步至边缘存储
-<div id="user-content-10”></div>
+<div id="user-content-10"></div>
 
 POST /v1/regions/{region}/tasks HTTP/1.1
 
@@ -177,7 +177,7 @@ HTTP/1.1 200 OK
 |taskIds| []string|	任务 taskId 数组|
 
 ### 2.边缘存储同步至OSS
-<div id="user-content-11”></div>
+<div id="user-content-11"></div>
 
 POST /v1/regions/{region}/tasks HTTP/1.1
 
@@ -256,7 +256,7 @@ HTTP/1.1 200 OK
 |taskIds| []string|	任务 taskId 数组|
 
 ### 3.查看文件管理
-<div id="user-content-12”></div>
+<div id="user-content-12"></div>
 
 GET /v1/regions/{region}/files?total=100&marker=xxx&filter=<CID> HTTP/1.1
 
@@ -338,7 +338,7 @@ x-jdcloud-pin: "henry",
 |deletedTime|string|预计删除时间，UTC|
 
 ### 4.查看同步日志
-<div id="user-content-13”></div>
+<div id="user-content-13"></div>
 
 GET /v1/regions/{region}/tasks?migrationType=1&state=1&marker=xxxxx HTTP/1.1
 
@@ -440,7 +440,7 @@ x-jdcloud-pin: "userPin"
 
 ## 常见问题
 ### 1.常用命令及API列表
-<div id="user-content-14”></div>
+<div id="user-content-14"></div>
 ipfs add file 本地添加文件到 IPFS 网络
 
 ipfs object get <cid> 查询文件 object 信息
@@ -452,5 +452,5 @@ ipfs cat <cid> file 下载 IPFS 网络中的文件到本地
 API列表：https://docs.ipfs.io/reference/api/cli/
 
 ### 2.非公网IPFS文件能否同步至OSS？
-<div id="user-content-15”></div>
+<div id="user-content-15"></div>
 不能，同步任务会失败。
