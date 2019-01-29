@@ -8,11 +8,11 @@
 
 3.天然的P2P网络分发特性，节约用户带宽成本。
 
-* 使用场景：[监控视频存储](instance-type-family#user-content-1)、[物联网边缘存储](instance-type-family#user-content-2)、[数据存储和备份](instance-type-family#user-content-3)、[互联网信息安全](instance-type-family#user-content-4)、[区块链应用](instance-type-family#user-content-5)
-* 控制台操作过程：[开启“边缘存储”服务](instance-type-family#user-content-6)、[OSS同步至边缘存储](instance-type-family#user-content-7)、[边缘存储同步至OSS](instance-type-family#user-content-8)
-* API统一信息：[API统一信息](instance-type-family#user-content-9)
-* API详情：[同步至边缘存储](instance-type-family#user-content-10)、[边缘存储同步至OSS](instance-type-family#user-content-11)、[查看文件管理](instance-type-family#user-content-12)、[查看同步日志](instance-type-family#user-content-13)
-* 常见问题：[常用命令及API列表](instance-type-family#user-content-14)、[非公网IPFS文件能否同步至OSS？](instance-type-family#user-content-15)
+* 使用场景：[监控视频存储](edgeStorage#user-content-1)、[物联网边缘存储](edgeStorage#user-content-2)、[数据存储和备份](edgeStorage#user-content-3)、[互联网信息安全](edgeStorage#user-content-4)、[区块链应用](edgeStorage#user-content-5)
+* 控制台操作过程：[开启“边缘存储”服务](edgeStorage#user-content-6)、[OSS同步至边缘存储](edgeStorage#user-content-7)、[边缘存储同步至OSS](edgeStorage#user-content-8)
+* API统一信息：[API统一信息](edgeStorage#user-content-9)
+* API详情：[同步至边缘存储](edgeStorage#user-content-10)、[边缘存储同步至OSS](edgeStorage#user-content-11)、[查看文件管理](edgeStorage#user-content-12)、[查看同步日志](edgeStorage#user-content-13)
+* 常见问题：[常用命令及API列表](edgeStorage#user-content-14)、[非公网IPFS文件能否同步至OSS？](edgeStorage#user-content-15)
 
 ## 使用场景
 
